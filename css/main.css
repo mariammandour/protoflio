@@ -43,7 +43,7 @@ html {
 }
 /* start nav */
 #navbar {
-    position: fixed;
+    /* position: fixed; */
     inset-block-start: 0;
     width: 100%;
     display: block;
@@ -79,14 +79,14 @@ nav{
 header{
     overflow-x:hidden ;
     background-color: var(--second_main_color);
-    padding-block-start: 120px;
+    padding-block-start: 30px;
     padding-inline-end: 0px;
     padding-block-end:20px;
     padding-inline-start:7%;
 }
 
 header h1{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700px;
     padding-inline-end: 20px;
 }
@@ -105,7 +105,7 @@ header p{
     opacity: .9;
 }
 header #first{
-    padding-block-start: 130px;
+    padding-block-start: 100px;
 }
 header #second{
     position: relative;
@@ -212,7 +212,7 @@ header .call a{
     margin-bottom: 100px;
     margin-top: 100px;
 }
-h6 {
+#design h6 {
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -226,7 +226,7 @@ h6 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-h2 {
+#design h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #000;
@@ -235,9 +235,57 @@ h2 {
     font-weight: 700;
     letter-spacing: 1px;
 }
-p{
+#design p{
     font-size: 22px;
     color: #666;
     font-weight: 300;
 }
+#design .images{
+    padding: 0px 5%;
+}
+#design .images div{
+    padding-left: 0px;
+}
+#design .one img{
+    width: 100%;
+    height: 625px;
+}
+#design .two img{
+    width: 100%;
+    height: 310px;
+}
 /* end design */
+/* start list */
+/* #list{
+
+} */
+#list a{
+    text-decoration: none;
+    color: #000;
+}
+#list h3{
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
+}
+#list div h5{
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 400;
+}
+#list div p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 130%;
+}
+#list .first{
+    width: 12%;
+}
+#list .first img{
+    width:50px;
+    height:50px;
+}
+#list .second{
+    width: 88%;
+}
+/* end list */
