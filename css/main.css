@@ -9,6 +9,13 @@ html {
 *{ 
     font-family: 'Inter', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: none;
+}
+a:hover{
+    text-decoration: none;
+}
 .container{
     margin-block-start: 0px;
     margin-inline-end: 7%;
@@ -289,3 +296,50 @@ header .call a{
     width: 88%;
 }
 /* end list */
+
+/* start footer */
+footer{
+    color: #fff;
+    background-color: #000;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+footer h2{
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+footer a{
+    text-decoration: none;
+    color: none;
+}
+footer a h2{
+    display: inline;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    -webkit-transition: background-position 2000ms ease;
+    transition: background-position 2000ms ease;
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer .text--first p{
+    color: #5c5c5c;
+    font-size: 17px;
+    font-weight: 300;
+}
+footer .text--first a p{
+    padding-top: 15px;
+    font-weight: 700;
+}
+footer .text--second{
+    font-size: 18px;
+}
+footer .text--second a{
+    color: white;
+}
+/* end footer */
